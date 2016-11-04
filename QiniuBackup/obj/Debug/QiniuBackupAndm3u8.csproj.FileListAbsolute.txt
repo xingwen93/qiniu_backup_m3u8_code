@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\LitJson.dll
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndm3u8.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndm3u8.csprojFakesResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackupAndM3u8.exe.config
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackupAndM3u8.exe
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackupAndM3u8.pdb
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndM3u8.exe
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndM3u8.pdb
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndM3u8.exe.manifest
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackupAndM3u8.exe.manifest
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackupAndM3u8.application
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackupAndM3u8.application

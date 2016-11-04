@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackup.exe.config
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackup.exe
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\QiniuBackup.pdb
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\bin\Debug\LitJson.dll
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackup.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackup.exe
+C:\Users\Administrator\Documents\qiniu-backup-master\QiniuBackup\obj\Debug\QiniuBackup.pdb

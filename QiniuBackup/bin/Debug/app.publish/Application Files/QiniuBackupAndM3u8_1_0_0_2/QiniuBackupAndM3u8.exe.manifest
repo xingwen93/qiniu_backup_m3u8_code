@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QiniuBackupAndM3u8.exe" version="1.0.0.2" publicKeyToken="2ea7df1764833317" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QiniuBackupAndM3u8" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="QiniuBackupAndM3u8.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LitJson.dll" size="54272">
+      <assemblyIdentity name="LitJson" version="0.9.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Kb8DAbT6UlfhQOaul3brs9dHBtI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QiniuBackupAndM3u8.exe" size="12288">
+      <assemblyIdentity name="QiniuBackupAndM3u8" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>J6I7WCDg2OJCWaf/Xr/q0tAQyyw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dll\LitJson.dll" size="54272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Kb8DAbT6UlfhQOaul3brs9dHBtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QiniuBackupAndM3u8.exe.config" size="976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Gl8o/MPgkTOpsJnUE8JeXuK9nkc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=123456" issuerKeyHash="13fbc328507ead0691954cc61b6dae0a16fe9883" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oLEOVdK7doa0B6qo+dquoj21PYk=</DigestValue></Reference></SignedInfo><SignatureValue>BmWagY/2XHA709YGR6Bg5ps6VM4nji/f+IUuH3ltpawQLnmqrEuMRyd+up6R+jsc8/rxwiI+v8TsR5mrUHXUKgpAh369T/swGV/DX0rBIkvvfkmBvQ9tOFfmbRc9O6gZr3l2BoannjzfzMz63f7eqyHkch5IDUOsikBQCLIo8x4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z+QLBjyu5ZDLCoMcAgIwH7IMOye+/XNfFkL5U1ZDKxK9Ltnvon2kOGD93evP5Re6uZCbd3gshORcdTMuynJ/l7+ZAmb6S/7V/HiJyMIi4P7fbEbQeID6gcEFKorrY1s1wpDebB6JsjYGbH1HzgWnA4+jA7roMvXc6Tf4N5Ok7/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="893db53da2aedaf9a8aa07b48676bbd2550eb1a0" Description="" Url=""><as:assemblyIdentity name="QiniuBackupAndM3u8.exe" version="1.0.0.2" publicKeyToken="2ea7df1764833317" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=123456</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WZikcrH9fB4yq5lCiKrtZDGlvwM=</DigestValue></Reference></SignedInfo><SignatureValue>TtSo9CrOnKnbMv/QV8VyrTt9AR+p7xOYFgB8LKdyuysTwD0XmnzzyKEEPeW+4L7TwolQmluQc0sm910ACcdpDj8DR/mkXInp20Erai+0OuDrOdpO04ihC5FFKepmS2zwH2JSPHkNdS9WhnicS295v56oeUuopvLc1kZngZeCH9Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z+QLBjyu5ZDLCoMcAgIwH7IMOye+/XNfFkL5U1ZDKxK9Ltnvon2kOGD93evP5Re6uZCbd3gshORcdTMuynJ/l7+ZAmb6S/7V/HiJyMIi4P7fbEbQeID6gcEFKorrY1s1wpDebB6JsjYGbH1HzgWnA4+jA7roMvXc6Tf4N5Ok7/U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICAjCCAWugAwIBAgIQTkte7sBpdItNYzA+BXnrfTANBgkqhkiG9w0BAQUFADARMQ8wDQYDVQQDEwYxMjM0NTYwHhcNMTUxMjMxMTYwMDAwWhcNMjExMjMxMTYwMDAwWjARMQ8wDQYDVQQDEwYxMjM0NTYwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM/kCwY8ruWQywqDHAICMB+yDDsnvv1zXxZC+VNWQysSvS7Z76J9pDhg/d3rz+UXurmQm3d4LITkXHUzLspyf5e/mQJm+kv+1fx4icjCIuD+32xG0HiA+oHBBSqK62NbNcKQ3mweibI2Bmx9R84FpwOPowO66DL13Ok3+DeTpO/1AgMBAAGjWzBZMBMGA1UdJQQMMAoGCCsGAQUFBwMDMEIGA1UdAQQ7MDmAEJF8CsZ5gfPTC8ZR/MsaKw6hEzARMQ8wDQYDVQQDEwYxMjM0NTaCEE5LXu7AaXSLTWMwPgV5630wDQYJKoZIhvcNAQEFBQADgYEAF8+PSSvSXlV3Fh7Aq9w5IjnYivtWXHIW5+NYkf2KHVY5scfi7Fj65w4GgU6L6dkBDUbNqsxDuFFCDJBP4wCDw9T3SUi6+D+XYx/Hy/4txPuUQ9wPy8fbtsxppJAy2ndn8ieAEpwKCRR6kRDcNfV8L1lzDa5DvWYEfOyO663DAUw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
