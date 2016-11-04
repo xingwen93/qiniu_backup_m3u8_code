@@ -88,8 +88,8 @@ namespace QiniuBackupAndM3u8
             GetM3U8ts();
 
             Console.WriteLine("请选择执行以下操作");
-            Console.WriteLine("--备份ts后执行云ts删除操作  请输入y --");
-            Console.WriteLine("--直接删除云ts操作  请输入d --");
+            Console.WriteLine("--备份ts后执行云ts删除以上检索到的ts文件操作  请输入y --");
+            Console.WriteLine("--直接删除以上检索到的ts文件操作  请输入d --");
             Console.WriteLine("--程序终止 请输入n --");
            string str = Console.ReadLine();
 
@@ -339,6 +339,17 @@ namespace QiniuBackupAndM3u8
 
         }
 
+        /// <summary>
+        ///执行写入文件操作
+        /// </summary>
+        static void WriteLogInfo(string LogStr="")
+        {
+              // 创建文件
+            FileStream fs = new FileStream("log.txt", FileMode.Append); //可以指定盘符，也可以指定任意文件名
+            StreamWriter sw = new StreamWriter(fs);
+           sw.WriteLine(LogStr); // 写入
+           sw.Close(); //关闭文件
+        }
 
         /// <summary>
         /// 删除指定的资源
@@ -373,11 +384,12 @@ namespace QiniuBackupAndM3u8
             //保存的日志文件中log.txt
             if (web.DownloadString("http://rs.qiniu.com" + uri)!=null)
             {
+                WriteLogInfo("------>>>>>>>>>>>>>>>>>>>>>---------删除完成" + key);
                 Console.WriteLine("------>>>>>>>>>>>>>>>>>>>>>---------删除完成" + key);
             }
 
 
-            return "dd";
+            return "success";
         }
 
 

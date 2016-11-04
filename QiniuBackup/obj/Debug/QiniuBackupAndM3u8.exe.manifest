@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QiniuBackupAndM3u8.exe" size="12288">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QiniuBackupAndM3u8.exe" size="12800">
       <assemblyIdentity name="QiniuBackupAndM3u8" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>J6I7WCDg2OJCWaf/Xr/q0tAQyyw=</dsig:DigestValue>
+        <dsig:DigestValue>F8mf8U5htGpiaFUZ549Z9VsaCHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,13 +74,13 @@
       <dsig:DigestValue>Kb8DAbT6UlfhQOaul3brs9dHBtI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QiniuBackupAndM3u8.exe.config" size="976">
+  <file name="QiniuBackupAndM3u8.exe.config" size="975">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Gl8o/MPgkTOpsJnUE8JeXuK9nkc=</dsig:DigestValue>
+      <dsig:DigestValue>cHVJdXCnoy2PHRKAHwYYCXluW4A=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
